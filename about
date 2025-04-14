@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sri Manikandan Enterprises</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">Sri Manikandan</div>
+    <nav class="top-navigation">
+            <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+    <section id="about" class="content">
+        <div class="container">
+<section class="about-section">
+    <h2>About Us</h2>
+    <p>
+        Sri Manikandan Enterprises is a trusted name in the construction industry, delivering top-quality paver blocks for both residential and commercial projects. With a strong focus on durability, design, and performance, we strive to meet the unique needs of every client.
+    </p>
+    <p>
+        Backed by years of hands-on experience and a dedicated team, we are committed to providing reliable paving solutions that combine functionality with aesthetic appeal. At Sri Manikandan Enterprises, customer satisfaction is our top priority, and we continuously innovate to stay ahead in the industry.
+    </p>
+    <h2>Why Choose Us</h2>
+    <ul class="why-choose-us">
+        <li><strong>✔ High-Quality Materials:</strong> We use only the best-grade concrete and aggregates.</li>
+        <li><strong>✔ Durable Designs:</strong> Our paver blocks are built to withstand harsh weather and heavy loads.</li>
+        <li><strong>✔ Customized Solutions:</strong> We offer a wide range of colors, patterns, and finishes to suit every project.</li>
+        <li><strong>✔ Experienced Team:</strong> Our skilled professionals ensure precision and excellence in every block.</li>
+        <li><strong>✔ Timely Delivery:</strong> We value your time and ensure prompt delivery on every order.</li>
+        <li><strong>✔ Customer Satisfaction:</strong> Your happiness is our success — we go above and beyond!</li>
+    </ul>
+</section>
+         </div>
+    </section>
+<div class="wrapper">
+    <div class="content">
+        <!-- Your Page Content -->
+    </div>
+    <footer>
+        <p>&copy; 2025 Sri Manikandan. All rights reserved.</p>
+    </footer>
+</div>
+</body>
+</html>
