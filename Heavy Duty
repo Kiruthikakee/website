@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="styles.css"> <!-- Link the same CSS file -->
+<title>Paver Block - Heavy Duty</title>
+</head>
+<body>
+<header>
+    <div class="logo">Sri Manikandan</div>
+    <nav class="top-navigation">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+    <section class="gallery">
+    <div class="gallery-container">
+        <div class="gallery-wrapper">
+<div class="gallery-item"><img src="https://5.imimg.com/data5/DC/TU/UB/SELLER-93318410/colorado-single-piece-500x500.jpg" alt="Image 9"></div>
+ <p class="image-caption">Concrete Colorado Block</p>
+<div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6xxzRleEJqo3bU65JwNTZiMXZb3gaJ99CRg&s" alt="Image 11"></div>
+ <p class="image-caption">Centurystone Dolomite Block</p>
+        </div>
+    </div>
+</section>
+    <footer>
+        &copy; 2025 Your Company. All rights reserved.
+    </footer>
+</body>
+</html>
