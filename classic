@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paver Block - Classic</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link the same CSS file -->
+</head>
+<body>
+<header>
+    <div class="logo">Sri Manikandan</div>
+    <nav class="top-navigation">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+    <main class="container">
+        <p class="product-description">Explore the classic design of our premium paver blocks.</p>
+    </main>
+<section class="gallery">
+    <div class="gallery-container">
+        <div class="gallery-wrapper">
+ <div class="gallery-item"><img src="https://5.imimg.com/data5/JW/NR/MY-13917362/f3-500x500.jpg" alt="Image 1"></div>
+ <p class="image-caption">Zigzag Block</p>
+ <div class="gallery-item"><img src="https://5.imimg.com/data5/EI/XO/ZC/SELLER-93318410/damru-single.jpg" alt="Image 2"></div>
+ <p class="image-caption">Damru Block</p>
+<div class="gallery-item"><img src="https://5.imimg.com/data5/SELLER/Default/2023/12/367867043/EZ/HP/WE/40013092/expanded-polystyrene-blocks-500x500.jpg" alt="Image 3"></div>
+ <p class="image-caption">Puzzle Block</p>
+<div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbxHokDZittVoL8-5MkIWbvwy5lCdeP_ZDOQ&s" alt="Image 4"></div>
+ <p class="image-caption">Plain Hexagon Concrete Paver Block</p>
+<div class="gallery-item"><img src="https://www.shutterstock.com/image-illustration/3d-realistic-render-grey-single-260nw-1140323258.jpg" alt="Image 5"></div>
+ <p class="image-caption">Single Pavement Block</p>
+<div class="gallery-item"><img src="https://3.imimg.com/data3/NA/NF/MY-1173009/classic-d-paving-block.jpg" alt="Image 6"></div>
+ <p class="image-caption">Classic Paving Block</p>
+    </div>
+    </div>
+</section>
+    <footer>
+        &copy; 2025 Your Company. All rights reserved.
+    </footer>
+</body>
+</html>
