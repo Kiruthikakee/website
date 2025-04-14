@@ -1,0 +1,346 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://www.realmservices.co.in/images/b1-b.jpg') no-repeat center center fixed !important;
+    background-size: cover !important;
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background: #1a237e;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation */
+.top-navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.top-navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.top-navigation a:hover {
+    color: #ffca28;
+}
+
+/* Hero Section */
+.hero {
+    color: white;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.hero-container {
+    width: 80%;
+}
+
+/* Text Content */
+.text-content {
+    max-width: 60%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Content */
+.content {
+    margin-bottom: 50px; /* Adjust this based on footer height */
+}
+
+.content {
+    background: transparent;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #ffca28;
+    color: #1a237e;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ffa000;
+}
+
+/* Footer */
+footer {
+    background: #1a237e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* Gallery */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery-item {
+    text-align: center;
+    max-width: 200px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #004080;
+    display: block;
+}
+
+.image-caption {
+    font-size: 14px;
+    font-weight: bold;
+    color: #004080;
+    margin-top: 5px;
+}
+
+/* Image Slider */
+.slider-wrapper {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image-slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.image-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+    border-radius: 10px;
+}
+
+/* Image Slider Animation */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    .text-content {
+        max-width: 80%;
+    }
+
+    .gallery-item {
+        max-width: 100%;
+    }
+}
+.rating-section {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.star.hovered,
+.star.selected {
+    color: gold;
+}
+.feedback-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center them horizontally */
+    margin-top: 20px;
+}
+
+#feedback {
+    width: 80%; /* or try 70% depending on your layout */
+    max-width: 800px; /* prevent it from stretching too wide */
+    height: 100px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #1a237e;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    resize: none;
+}
+
+.rating-section button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #1a237e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.rating-section button:hover {
+    background-color: #3949ab;
+}
+
+.rating-box {
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+.star {
+    font-size: 40px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.location-section {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+.map-container iframe {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    color: #1a237e;
+}
+
+.contact-box {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.contact-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    padding: 12px;
+    border: 2px solid #1a237e;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-box button {
+    background: #1a237e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-box button:hover {
+    background-color: #3949ab;
+}
+
+.contact-details {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.contact-details a {
+    color: #1a237e;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+p {
+    font-weight: bold;
+    font-size: 18px; 
+    line-height: 1.6; 
+}
+.about-section {
+    background: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 30px auto;
+    color: #1a237e;
+    line-height: 1.6;
+}
+
+.why-choose-us {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.why-choose-us li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.stars {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+}
