@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paver Block - Modern</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link the same CSS file -->
+</head>
+<body>
+<header>
+    <div class="logo">Sri Manikandan</div>
+    <nav class="top-navigation">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+    <section class="gallery">
+    <div class="gallery-container">
+        <div class="gallery-wrapper">
+        <div class="gallery-item"><img src="https://5.imimg.com/data5/SELLER/Default/2023/6/320665863/QC/FO/SL/92768174/70-mm-i-shape-pavers-block-500x500.png" alt="Image 2"></div>
+ <p class="image-caption">Shaped Paver Block</p>
+<div class="gallery-item"><img src="https://www.shutterstock.com/image-illustration/single-selflocking-paving-block-isolated-260nw-2526341927.jpg" alt="Image 4"></div> 
+ <p class="image-caption">Paver Block 3d</p>
+ <div class="gallery-item"><img src="https://img3.exportersindia.com/product_images/bc-full/2018/9/5886007/trihex-paver-blocks-1536986365-4304155.jpeg" alt="Image 6"></div>
+ <p class="image-caption">Trihex Groove Block</p>
+<div class="gallery-item"><img src="https://st3.depositphotos.com/3123063/14708/i/450/depositphotos_147084473-stock-photo-single-yellow-pavement-brick-isolated.jpg" alt="Image 10"></div>
+ <p class="image-caption">Single yellow Pavement Block</p>
+<div class="gallery-item"><img src="https://www.technocim.com/UserFiles/pictures/WAVE_RED_600.jpg" alt="Image 11"></div>
+ <p class="image-caption">Paving Wave Block</p>
+<div class="gallery-item"><img src="https://media.istockphoto.com/id/660081406/photo/one-concrete-stone-for-paving.jpg?s=612x612&w=0&k=20&c=IVaOphXNm7K7yvlF5iBgwdS8YfbpoRocKMH2BgWJrHg=" alt="Image 5"></div>
+ <p class="image-caption">Stone Single Object Block</p>
+        </div>
+    </div>
+</section>
+    <footer>
+        &copy; 2025 Your Company. All rights reserved.
+    </footer>
+</body>
+</html>
