@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking External CSS -->
+</head>
+<body>
+<header>
+    <div class="logo">Sri Manikandan</div>
+    <nav class="top-navigation">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+<section class="gallery">
+    <div class="gallery-container">
+        <div class="gallery-wrapper">
+            <div class="gallery-item"><img src="https://5.imimg.com/data5/JW/NR/MY-13917362/f3-500x500.jpg" alt="Image 1"></div>
+ <p class="image-caption">Zigzag Block</p>
+
+            <div class="gallery-item"><img src="https://5.imimg.com/data5/SELLER/Default/2023/6/320665863/QC/FO/SL/92768174/70-mm-i-shape-pavers-block-500x500.png" alt="Image 2"></div>
+ <p class="image-caption">Shaped Paver Block</p>
+
+            <div class="gallery-item"><img src="https://5.imimg.com/data5/EI/XO/ZC/SELLER-93318410/damru-single.jpg" alt="Image 3"></div>
+ <p class="image-caption">Damru Block</p>
+
+            <div class="gallery-item"><img src="https://www.shutterstock.com/image-illustration/single-selflocking-paving-block-isolated-260nw-2526341927.jpg" alt="Image 4"></div> 
+ <p class="image-caption">Paver Block 3d</p>
+       
+<div class="gallery-item"><img src="https://media.istockphoto.com/id/660081406/photo/one-concrete-stone-for-paving.jpg?s=612x612&w=0&k=20&c=IVaOphXNm7K7yvlF5iBgwdS8YfbpoRocKMH2BgWJrHg=" alt="Image 5"></div>
+ <p class="image-caption">Stone Single Object Block</p>
+
+            <div class="gallery-item"><img src="https://img3.exportersindia.com/product_images/bc-full/2018/9/5886007/trihex-paver-blocks-1536986365-4304155.jpeg" alt="Image 6"></div>
+ <p class="image-caption">Trihex Groove Block</p>
+
+<div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbxHokDZittVoL8-5MkIWbvwy5lCdeP_ZDOQ&s" alt="Image 7"></div>
+ <p class="image-caption">Plain Hexagon Concrete Paver Block</p>
+
+<div class="gallery-item"><img src="https://5.imimg.com/data5/SELLER/Default/2023/12/367867043/EZ/HP/WE/40013092/expanded-polystyrene-blocks-500x500.jpg" alt="Image 8"></div>
+ <p class="image-caption">Puzzle Block</p>
+
+<div class="gallery-item"><img src="https://5.imimg.com/data5/DC/TU/UB/SELLER-93318410/colorado-single-piece-500x500.jpg" alt="Image 9"></div>
+ <p class="image-caption">Concrete Colorado Block</p>
+
+<div class="gallery-item"><img src="https://st3.depositphotos.com/3123063/14708/i/450/depositphotos_147084473-stock-photo-single-yellow-pavement-brick-isolated.jpg" alt="Image 10"></div>
+ <p class="image-caption">Single yellow Pavement Block</p>
+
+<div class="gallery-item"><img src="https://www.technocim.com/UserFiles/pictures/WAVE_RED_600.jpg" alt="Image 11"></div>
+ <p class="image-caption">Paving Wave Block</p>
+
+<div class="gallery-item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6xxzRleEJqo3bU65JwNTZiMXZb3gaJ99CRg&s" alt="Image 12"></div>
+ <p class="image-caption">Centurystone Dolomite Block</p>
+
+<div class="gallery-item"><img src="https://www.shutterstock.com/image-illustration/3d-realistic-render-grey-single-260nw-1140323258.jpg" alt="Image 13"></div>
+ <p class="image-caption">Single Pavement Block</p>
+
+<div class="gallery-item"><img src="https://3.imimg.com/data3/NA/NF/MY-1173009/classic-d-paving-block.jpg" alt="Image 14"></div>
+ <p class="image-caption">Classic Paving Block</p>
+
+        </div>
+    </div>
+</section>
+ <script src="script.js"></script>
+
+<div class="wrapper">
+    <div class="content">
+        <!-- Your Page Content -->
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Sri Manikandan. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
